@@ -6,11 +6,16 @@
   "packageRules": [
     {
       "enabled": false,
-      "matchPackagePatterns": ["*"]
+      "matchPackagePatterns": ["*"],
+      "automerge": true
     }
   ],
   "vulnerabilityAlerts": {
     "enabled": true
   },
-  "osvVulnerabilityAlerts": true
+  "osvVulnerabilityAlerts": true,
+  "ignoreTests": true,
+  "platformAutomerge": true,
+  "automergeType": "branch"
+
 }
